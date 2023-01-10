@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-sec{
+    width: fit-content;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.input-sec h1{
+    text-align: center;
+}
+
+input[type='text']{
+    height: 25px;
+}
+
+input[type='submit']{
+    height: 30px;
+    border: 0;
+    background-color: rgb(9, 195, 9);
+    color: white;
+}
+
+input[type='button']{
+    height: 30px;
+    border: 0;
+    background-color: rgb(251, 255, 0);
+}
+
+.todolist-container{
+    width: fit-content;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.single-item{
+   display: flex; 
+   margin: 16px;
+}
+
+.single-item li,button{
+    margin: 0 3px;
+}
+
+.delete-btn{
+    border: 0;
+    background-color: red;
+    color: white;
+}
+
+.done-btn{
+    border: 0;
+    background-color: green;
+    color: white;
+}
+
+@media(max-width: 450px){
+    .frm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frm input{
+        margin: 2px 0;
+    }
+}
