@@ -33,5 +33,9 @@ function addAnItem(event){
 
         todo_input.value = '';
 
+        delete_btn.addEventListener('click', () => {
+            list_container.remove();
+        })
+
     }
 }
