@@ -37,5 +37,9 @@ function addAnItem(event){
             list_container.remove();
         })
 
+        done_btn.addEventListener('click', ()=>{
+            list_item.style.textDecoration = 'line-through';
+        })
+
     }
 }
